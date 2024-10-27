@@ -6,8 +6,8 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     
-SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '' : process.env.OWNER_NUMBER,   
+SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=XBk1XSDD#_Fjoi0vQ91FvLSDqi41ZKyxcD8eKbU6GHKF_DC6TPT4' : process.env.SESSION_ID,
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94760424531' : process.env.OWNER_NUMBER,   
 ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'false' : process.env.ONLY_GROUP,
 ONLY_ME: process.env.ONLY_ME === undefined ? 'false' : process.env.ONLY_ME,
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,    
@@ -15,7 +15,7 @@ PREFIX: process.env.PREFIX || '.' ,
 FOOTER: process.env.FOOTER=== undefined ? '‌👨‍💻 ᴠᴀᴊɪʀᴀ ᴍᴅ ʙʏ ᴛᴄ ᴛᴇᴀᴍ 👨‍💻': process.env.FOOTER,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,
 MAX_SIZE: 500, 
-ALIVE:  process.env.ALIVE  || ''  ,    
+ALIVE:  process.env.ALIVE  || 'hi😇🌻'  ,    
 OWNER_REACT:  process.env.OWNER_REACT  || true  ,
 ADMIN_EVENT:  process.env.ADMIN_EVENT  || true  ,   
 AUTO_BLOCK:  process.env.AUTO_BLOCK  || false  ,        
