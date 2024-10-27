@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
     
 SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=yEVVSTJL#TYoi3I7dfupXClmVHQcDrR4yB-GGjxu3p2Z-SWHZbTM' : process.env.SESSION_ID,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94760865771' : process.env.OWNER_NUMBER,   
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94760424531' : process.env.OWNER_NUMBER,   
 ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'true' : process.env.ONLY_GROUP,
 ONLY_ME: process.env.ONLY_ME === undefined ? 'true' : process.env.ONLY_ME,
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || true ,    
@@ -28,7 +28,7 @@ AUTO_RECORDING:  process.env.AUTO_RECORDING  || false  ,
 AUTO_READ:  process.env.AUTO_READ  || false  ,
 READ_CMD_ONLY:  process.env.READ_CMD_ONLY  || false  ,
 AUTO_BIO:  process.env.AUTO_BIO  || false  ,       
-ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,
+ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || true  ,
 WORK_TYPE: process.env.WORK_TYPE || 'public' ,
 ANTI_LINK: process.env.ANTI_LINK || false  ,
 ANTI_BOT: process.env.ANTI_BOT || false  ,
